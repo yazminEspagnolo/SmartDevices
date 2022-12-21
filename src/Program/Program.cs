@@ -5,7 +5,7 @@
 //--------------------------------------------------------------------------------
 
 using System;
-using ClassLibrary;
+using AdapterExample;
 
 namespace ConsoleApplication
 {
@@ -15,13 +15,14 @@ namespace ConsoleApplication
     public static class Program
     {
         /// <summary>
-        /// Punto de entrada al programa principal.
+        /// Programa principal.
         /// </summary>
         public static void Main()
         {
-            var train = new Train();
-            train.StartEngines();
-            Console.WriteLine("Hello World!");
+            Plug plug = new Plug("4582");
+            ISmartDevice SmartPlug = new Adapter(plug);
+            Console.WriteLine(SmartPlug.GetStatus());
+            SmartPlug.On();
         }
     }
 }

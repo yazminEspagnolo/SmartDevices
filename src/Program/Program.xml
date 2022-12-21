@@ -11,7 +11,7 @@
         </member>
         <member name="M:ConsoleApplication.Program.Main">
             <summary>
-            Punto de entrada al programa principal.
+            Programa principal.
             </summary>
         </member>
     </members>
