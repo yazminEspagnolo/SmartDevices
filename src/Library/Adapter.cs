@@ -16,7 +16,6 @@ public class Adapter : ISmartDevice
     /// <summary>
     /// El plug que se adapta.
     /// </summary>
-    /// <value></value>
     public Plug AdaptPlug { get; set; }
 
     /// <summary>
@@ -44,7 +43,6 @@ public class Adapter : ISmartDevice
     /// <summary>
     /// Retorna el estado del dispositivo.
     /// </summary>
-    /// <returns></returns>
     public string GetStatus()
     {
         return AdaptPlug.GetStatus();

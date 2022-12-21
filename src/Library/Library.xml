@@ -19,7 +19,6 @@
             <summary>
             El plug que se adapta.
             </summary>
-            <value></value>
         </member>
         <member name="M:AdapterExample.Adapter.On">
             <summary>
@@ -35,7 +34,6 @@
             <summary>
             Retorna el estado del dispositivo.
             </summary>
-            <returns></returns>
         </member>
         <member name="T:AdapterExample.Bulb">
             <summary>
