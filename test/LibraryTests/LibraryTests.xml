@@ -4,6 +4,16 @@
         <name>LibraryTests</name>
     </assembly>
     <members>
+        <member name="T:Tests.TestBulb">
+            <summary>
+            Clase de tests
+            </summary>
+        </member>
+        <member name="M:Tests.TestBulb.BulbTest">
+            <summary>
+            Acá testeo el ISmartDevice.
+            </summary>
+        </member>
         <member name="T:Tests.TestsAdapter">
             <summary>
             Clase de tests
@@ -12,6 +22,16 @@
         <member name="M:Tests.TestsAdapter.AdapterTest">
             <summary>
             Acá testeo el Adapter para verificar que se adapta correctamente a un SmartDevice.
+            </summary>
+        </member>
+        <member name="T:Tests.TestWashingMachine">
+            <summary>
+            Clase de tests
+            </summary>
+        </member>
+        <member name="M:Tests.TestWashingMachine.WashingMachineTest">
+            <summary>
+            Acá testeo el ISmartDevice.
             </summary>
         </member>
     </members>
